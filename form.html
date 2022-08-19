@@ -2,9 +2,48 @@
 
 <form action="https://formspree.io/f/meqdqbgj" method="POST">
 
-    <label for="">Type your name</label><br>
-    <input placeholder="Write something..." type="text" name="name" id="" value="São Paulo" required="required">
-    <button type="submit">Send</button>
+    <p>
+        <label for="">Type your name</label><br>
+        <input placeholder="Write something..." type="text" name="name" id="" value="São Paulo" required="required">
+    </p>
+    
+    <p>
+        <label for="">Type your message</label><br>
+        <textarea required placeholder="Write something..." name="" id="" rows="10" cols="60">Message</textarea>
+    </p>
 
+    <p>
+        <label for="">Choose the sports you play</label>
+        <ul>
+            <li><input checked value="SIM" name="judo" type="checkbox"> Judô</li>
+            <li><input value="SIM" name="futebol" type="checkbox"> Futebol</li>
+            <li><input value="SIM" name="tenis" type="checkbox"> Tênis</li>
+        </ul>
+    </p>
+
+    <p>
+        <label for="">Choose your favorite color:</label>
+        <ul>
+            <li><input value="VERMELHO" type="radio" name="favorite_color" id="">Red</li>
+            <li><input value="BLUE" type="radio" name="favorite_color" id="">Blue</li>
+            <li><input value="GREEN" type="radio" name="favorite_color" id="">Green</li>
+        </ul>
+        
+    </p>
+
+    <p>
+        <label for="">Choose your city</label>
+        <select name="" id="">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option selected value="SJC">São José dos Campos</option>
+        </select>
+    </p>
+    
+    <p>
+        <input value="SIM" type="checkbox" name="contract_terms" id=""> I accept the terms of engagement
+    </p>
+    
+    <button type="submit">Send</button>
 
 </form>
