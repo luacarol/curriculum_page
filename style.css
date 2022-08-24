@@ -2,4 +2,21 @@
     background-color: rgb(244, 215, 179);
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+    text-transform: uppercase;
+}
+
+#nameAndTitle {
+    width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
 }
