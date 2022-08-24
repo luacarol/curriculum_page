@@ -20,3 +20,8 @@
 h1, h2, h3, h4 {
     text-transform: uppercase;
 }
+
+.icon {
+    width: 0.75em;
+    height: 0.75em;
+}
