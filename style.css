@@ -21,6 +21,16 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
+#contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact img {
+    width: 1.875em;
+}
+
 .icon {
     width: 0.75em;
     height: 0.75em;
