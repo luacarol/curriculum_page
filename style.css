@@ -24,12 +24,12 @@ h1, h2, h3, h4 {
 #container {
     display: grid;
     grid-template-columns: 30% auto;
+    column-gap: 1.25em;
 }
 
 #sidebar, #content {
     display: flex;
     flex-direction: column;
-    row-gap: 1.25em;
 }
 
 #contact {
@@ -45,4 +45,15 @@ h1, h2, h3, h4 {
 .icon {
     width: 0.75em;
     height: 0.75em;
+}
+
+.card h3 {
+    font-family: 'Hubballi', cursive;
+}
+
+.card {
+    font-family: Montserrat;
+    border: 0.063em solid #b4b4b4ea;
+    border-radius: 0.938em;
+    padding: 1.25em;
 }
