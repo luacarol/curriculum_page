@@ -34,23 +34,104 @@
             margin-top: 40px;
             margin-bottom: 40px;
         }
+
+        #menu {
+            text-align: right;
+            margin-top: 49px;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu ul li {
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #070F18;
+            margin-left: 20px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        
+        #button-call-to-action {
+            background: #1F7CFF;
+            border-radius: 50px;
+            border: #1F7CFF;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 10px 25px;
+        }
+
+        #header-call-to-action h1 {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 82px;
+            color: #000000;
+        }
+
+        #header-call-to-action p {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            color: #575455;
+        }
+
+        #header-image {
+            margin-left: 42px;
+        }
+
+        #header-image img {
+            width: 100%;
+        }
+
+
     </style>
 </head>
 
 <body>
 
     <div class="container">
-
         <div id="header">
-
             Portfólio
-
         </div>
-
         <div id="menu">
-
+            <ul>
+                <li><a href="">Meus Serviços</a></li>
+                <li><a href="">Contatos</a></li>
+                <li><a href="">Portfólio</a></li>
+            </ul>
         </div>
+    </div>
 
+    <div class="container">
+        <div id="header-call-to-action">
+            <h1>Olá, meu nome <br>é Luana</br></h1>
+            <p>Sou programadora e gostaria de apresentar meu trabalho para você através deste portfólio</p>
+            <button id="button-call-to-action" href="">Meus Serviços</button>
+        </div>
+        <div id="header-image">
+            <img src="img/header.svg" alt="header image">
+        </div>
     </div>
 
 </body>
