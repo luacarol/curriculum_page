@@ -91,6 +91,7 @@ a {
 }
 
 #clients {
+    margin-top: 20px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -127,6 +128,10 @@ h1.black {
 
 .textCenter {
     text-align: center;
+}
+
+#header-services {
+    margin-top: 70px;
 }
 
 #services .textCenter h3 {
@@ -189,4 +194,16 @@ h1.black {
 
 #contactForm form {
     text-align: center;
+}
+
+#portfolioTitle {
+    margin-top: 70px;
+}
+
+.portfolioImg img {
+    width: 100%;
+}
+
+.portfolioImg {
+    padding: 10px;
 }
