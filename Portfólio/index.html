@@ -11,101 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Portfólio</title>
-    <style>
-        body {
-            margin-left: 15%;
-            margin-right: 15%;
-        }
 
-        .container {
-            display: grid;
-            grid-auto-flow: column;
-            grid-auto-columns: 1fr;
-        }
-
-        #header {
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 28px;
-            line-height: 42px;
-            text-decoration-line: underline;
-            color: #070F18;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-
-        #menu {
-            text-align: right;
-            margin-top: 49px;
-        }
-
-        #menu ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        #menu ul li {
-            display: inline-block;
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            color: #070F18;
-            margin-left: 20px;
-        }
-
-        a {
-            color: black;
-            text-decoration: none;
-        }
-        
-        #button-call-to-action {
-            background: #1F7CFF;
-            border-radius: 50px;
-            border: #1F7CFF;
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 24px;
-            text-align: center;
-            color: #ffffff;
-            cursor: pointer;
-            padding: 10px 25px;
-        }
-
-        #header-call-to-action h1 {
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 55px;
-            line-height: 82px;
-            color: #000000;
-        }
-
-        #header-call-to-action p {
-            font-family: 'Poppins', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 32px;
-            color: #575455;
-        }
-
-        #header-image {
-            margin-left: 42px;
-        }
-
-        #header-image img {
-            width: 100%;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -132,6 +39,67 @@
         <div id="header-image">
             <img src="img/header.svg" alt="header image">
         </div>
+    </div>
+
+    <div class="container" id="clients">
+
+        <div class="headerClientText">
+            Alguns dos <br>
+            meus clientes
+        </div>
+        <div class="headerLogo">
+            <img src="img/iphone_logo.png" alt="apple logo" style="width: 100px;">
+        </div>
+        <div class="headerLogo">
+            <img src="img/slack_logo.png" alt="slack logo" style="width: 100px;">
+        </div>
+        <div class="headerLogo">
+            <img src="img/spotify_logo.png" alt="spotify logo" style="width: 100px;">
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div>
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Meus Serviços</h1>
+        </div>
+        
+    </div>
+
+    <div class="container" id="services">
+
+        <div class="textCenter">
+            <h3>Consultoria</h3>
+            <p class="p-gray">Te ajudo a organizar sua empresa<br>e melhorar seus resultados.</p>
+        </div>
+        <div class="textCenter">
+            <h3>E-mail Marketing</h3>
+            <p class="p-gray">Gerenciar companhias é difícil<br>Conte comigo para te ajudar.</p>
+        </div>
+        <div class="textCenter">
+            <h3>Criação de Sites</h3>
+            <p class="p-gray">Deselvolva seu site inteiro<br>do zero e te entrega prontinho.</p>
+        </div>
+
+    </div>
+
+    <div class="container" id="contact">
+
+        <div id="contactImg">
+            <img src="img/contact.svg" alt="contact">
+        </div>
+        <div id="contactForm">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="black">Ganhe mais dinheiro</h1>
+            <p class="p-gray">Digite aqui seu endereço de e-mail. Eu entrarei em<br>contato para fornecer um diagnóstico gratuitp</p>
+            <form action="https://formspree.io/f/xkneoplg">
+                <input type="text" placeholder="Seu e-mail" name="contactEmail" required="required">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
     </div>
 
 </body>
